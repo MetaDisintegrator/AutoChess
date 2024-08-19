@@ -1,0 +1,9 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "小圆盾",
+    "Description": "如果用于弹反，就是高风险高回报，显然不是个明智的选择",
+    "Def": 2,
+    "Resource": "Equipment/Shield01"
+  }
+}

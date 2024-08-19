@@ -1,0 +1,36 @@
+{
+  "1": {
+    "1": {
+      "ID": 1,
+      "Lv": 1,
+      "Name": "防御",
+      "Description": "举起盾牌，接下来的5秒内受到伤害降低{0}%",
+      "DescriptionParams": [
+        12
+      ],
+      "Condition": "MPCD",
+      "CD": [
+        50
+      ],
+      "Anim": "Skill",
+      "Func": "AddBuff",
+      "Param": 1
+    },
+    "2": {
+      "ID": 1,
+      "Lv": 2,
+      "DescriptionParams": [
+        15
+      ],
+      "Param": 2
+    },
+    "3": {
+      "ID": 1,
+      "Lv": 3,
+      "DescriptionParams": [
+        18
+      ],
+      "Param": 3
+    }
+  }
+}
