@@ -3,7 +3,7 @@ Temp/
 .vscode/
 Logs/
 UserSettings/
-Packages/
+*.csproj
 *.sln
 *.userprefs
 *.unityproj
