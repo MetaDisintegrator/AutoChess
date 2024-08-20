@@ -26,8 +26,9 @@ namespace GM
                 Type = CmdType.Set,
                 Childs = new Dictionary<string, GMCmdTree>()
             };
-            foreach (var def in list)
+            for (int i =0;i<list.Count;i++)
             {
+                CmdDefine def = list[i];
                 if (!def.Used)
                 {
                     root.Childs.Add(def.Cmd,Create(def));
@@ -36,7 +37,7 @@ namespace GM
 
             int Cmp(CmdDefine x,CmdDefine y)
             { 
-                return y.ID - x.ID;
+                return x.ID - y.ID;
             }
             GMCmdTree Create(CmdDefine define)
             {

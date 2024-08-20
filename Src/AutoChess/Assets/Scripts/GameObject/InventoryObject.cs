@@ -1,3 +1,4 @@
+using Item;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -11,6 +12,9 @@ namespace GameObjects
         Image image;
         Color originColor;
 
+        public Inventory OwnerInventory {  get; set; }
+        public EquipmentElement Item {  get; set; }
+        public int Idx { get; set; }
         public bool MouseOver { get; private set; }
         public bool Occupied { get; set; } = false;
 

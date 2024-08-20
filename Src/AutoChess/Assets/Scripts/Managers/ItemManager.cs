@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Chess;
 using Common;
 using Common.Data;
 using GameObjects;
@@ -8,14 +9,15 @@ using UnityEngine;
 
 namespace Managers
 {
-    public class ItemManager : Singleton<ItemManager>
+    public class ItemManager : MonoSingleton<ItemManager>
     {
+        bool active = true;
         Dictionary<InventoryID, Inventory> inventories = new Dictionary<InventoryID, Inventory>();
 
-        public delegate void InventoryEvent(InventoryID ID, int idx, Equipment change);
+        public delegate void InventoryEvent(Inventory inventory);
         public event InventoryEvent onInventoryChange;
 
-        public Inventory GetOrCreateInventory(ChessElement owner)
+        public Inventory GetOrCreateInventory(ChessBase owner)
         {
             InventoryID ID = new InventoryID(owner);
             return GetOrCreateInventory(ID, 3);
@@ -40,7 +42,7 @@ namespace Managers
             if (!inventories.TryGetValue(ID, out var inventory))
                 return false;
             int idx = inventory.FirstAvailable();
-            if (idx > 0)
+            if (idx >= 0)
             {
                 Equipment equipment = new Equipment(define);
                 PlaceItem(inventory, idx, equipment);
@@ -53,17 +55,80 @@ namespace Managers
             if(!inventories.TryGetValue(ID,out var inventory))
                 return;
             if (inventory.Remove(idx))
-                onInventoryChange?.Invoke(ID, idx, null);
+                onInventoryChange?.Invoke(inventory);
         }
 
         private bool PlaceItem(Inventory inventory, int idx, Equipment equipment)
         {
             if (inventory.Place(idx, equipment))
             {
-                onInventoryChange?.Invoke(inventory.ID, idx, equipment);
+                onInventoryChange?.Invoke(inventory);
                 return true;
             }
             return false;
+        }
+        private void ReplaceItem(EquipmentElement dragElement, InventoryObject inventory)
+        {
+            InventoryObject oldInventory = dragElement.InventoryObj;
+            PlaceItem(inventory.OwnerInventory, inventory.Idx, dragElement.Item);
+            RemoveItem(oldInventory.OwnerInventory.ID, oldInventory.Idx);
+        }
+
+        public void EnterRestStage()
+        {
+            active = true;
+            PlayerInputManager.Instance.onItemClicked += OnClickItem;
+            PlayerInputManager.Instance.onDragItem += OnDragItem;
+        }
+        public void ExitRestStage()
+        {
+            active = false;
+            PlayerInputManager.Instance.onItemClicked -= OnClickItem;
+            PlayerInputManager.Instance.onDragItem -= OnDragItem;
+        }
+
+        float dragTime;
+        EquipmentElement dragElement = null;
+        GameObject dragObj = null;
+
+        private void OnClickItem(Equipment item)
+        {
+            Debug.Log("ItemManager: ClickItem");
+        }
+        private void OnDragItem(EquipmentElement element, Vector3 mPos, float delta)
+        {
+            if (dragElement != null)
+            {
+                dragObj.transform.position = mPos;
+            }
+            else
+            {
+                dragElement = element;
+                dragObj = element.EnterDrag(mPos);
+                InventoryManager.Instance.EnterInventorySelecting();
+                dragTime = 0f;
+            }
+            //Debug.LogFormat("TeamManager: DragMember {0}",mPos);
+
+        }
+        private void Update()
+        {
+            if (Input.GetMouseButtonUp(0))
+            {
+                dragTime = 0;
+                if (dragElement != null)
+                {
+                    if (InventoryManager.Instance.FinishInventorySelecting(out var inventory))
+                    {
+                        Debug.Log("ItemManager: Item Move Done!");
+                        ReplaceItem(dragElement, inventory);
+                    }
+                    dragElement.ExitDrag();
+                    dragElement = null;
+                    Destroy(dragObj);
+                    dragObj = null;
+                }
+            }
         }
     }
 }

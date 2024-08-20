@@ -26,5 +26,19 @@
     "Cmd": "Rest",
     "Type": "Func",
     "Func": "StageRest"
+  },
+  "201": {
+    "ID": 201,
+    "Cmd": "Item",
+    "Childs": [
+      202
+    ],
+    "Type": "Set"
+  },
+  "202": {
+    "ID": 202,
+    "Cmd": "Add",
+    "Type": "Func",
+    "Func": "ItemAdd"
   }
 }

@@ -65,9 +65,11 @@
     <Compile Include="Assets\Scripts\UI\UIStart.cs" />
     <Compile Include="Assets\Scripts\Managers\DataManager.cs" />
     <Compile Include="Assets\Scripts\GM\GMToolUtility.cs" />
+    <Compile Include="Assets\Scripts\Managers\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\GM\UIGMTool.cs" />
     <Compile Include="Assets\Scripts\GameObject\EquipmentElement.cs" />
     <Compile Include="Assets\Scripts\Item\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Factory\ItemFactory.cs" />
     <Compile Include="Assets\Scripts\Common\Data\SkillDefine.cs" />
     <Compile Include="Assets\Scripts\Item\Equipment.cs" />
     <Compile Include="Assets\Scripts\Managers\TeamManager.cs" />
@@ -76,6 +78,8 @@
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Managers\SceneManager.cs" />
     <Compile Include="Assets\Scripts\GM\GMController.cs" />
+    <Compile Include="Assets\Scripts\UI\UIBag.cs" />
+    <Compile Include="Assets\Scripts\UI\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\Factory\ShapeFactory.cs" />
     <Compile Include="Assets\Scripts\Res\ResLoader.cs" />
     <Compile Include="Assets\Scripts\UI\CanvasGetter.cs" />
@@ -83,7 +87,6 @@
     <Compile Include="Assets\Scripts\Common\Data\ShapeDefine.cs" />
     <Compile Include="Assets\Scripts\Common\Singleton.cs" />
     <Compile Include="Assets\Scripts\GM\GMToolManager.cs" />
-    <Compile Include="Assets\Scripts\GameObject\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\Managers\GridManager.cs" />
     <Compile Include="Assets\Scripts\GM\GMCmdManager.cs" />
     <Compile Include="Assets\Scripts\Chess\Shape.cs" />

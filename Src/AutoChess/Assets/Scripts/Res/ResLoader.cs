@@ -7,7 +7,7 @@ namespace Res
 {
     public class ResLoader : Singleton<ResLoader>
     {
-        public GameObject LoadGameObject(string path, bool init = true)
+        public GameObject LoadGameObject(string path, bool init = true, Transform root = null)
         { 
             GameObject prefab = Resources.Load<GameObject>(path);
             if (prefab == null)
@@ -16,6 +16,8 @@ namespace Res
                 return null;
             }
             GameObject obj = GameObject.Instantiate(prefab);
+            if (root != null)
+                obj.transform.SetParent(root);
             if (init)
             {
                 obj.transform.position = Vector3.zero;

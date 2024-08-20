@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using Common;
+using Item;
 using Managers;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ namespace GM
         None = 0,
         TeamAdd = 2,
         StageRest = 102,
+        ItemAdd = 202,
     }
     public class GMCmdManager : Singleton<GMCmdManager>
     {
@@ -22,6 +24,7 @@ namespace GM
         {
             handlers.Add(CmdFunction.TeamAdd, TeamAdd);
             handlers.Add(CmdFunction.StageRest, StageRest);
+            handlers.Add(CmdFunction.ItemAdd, ItemAdd);
         }
 
         public void Handle(CmdFunction func, string[] args)
@@ -33,6 +36,8 @@ namespace GM
                     handler(args);
                 }
             }
+            else
+                Debug.LogErrorFormat("GMCmd: UnRegistered Command [{0}]", func);
         }
 
         private void TeamAdd(string[] args)
@@ -41,7 +46,6 @@ namespace GM
             int id = int.Parse(args[0]);
             TeamManager.Instance.AddMember(DataManager.Instance.Shapes[id], out var buf);
         }
-
         private void StageRest(string[] args)
         {
             Log("StageRest", args);
@@ -50,6 +54,15 @@ namespace GM
                 GameManager.Instance.EnterRestStage();
             else
                 GameManager.Instance.ExitRestStage();
+        }
+        private void ItemAdd(string[] args)
+        {
+            Log("ItemAdd", args);
+            int id = int.Parse(args[0]);
+            if (ItemManager.Instance.AddItem(InventoryID.BagInventory, DataManager.Instance.Equipments[id]))
+                Debug.Log("Add Success!");
+            else 
+                Debug.Log("Add Failed!");
         }
 
         private void Log(string func, string[] args)

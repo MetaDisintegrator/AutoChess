@@ -7,8 +7,60 @@
       "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\factory\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\gameobject\\equipmentelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\equipmentelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|e:\\unityproject\\autochess\\src\\autochess\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\item\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|e:\\unityproject\\autochess\\src\\autochess\\assets\\scripts\\gameobject\\chesselement\\teamelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\chesselement\\teamelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|e:\\unityproject\\autochess\\src\\autochess\\assets\\scripts\\ui\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\gm\\gmcmdmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gm\\gmcmdmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\gm\\gmtoolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gm\\gmtoolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\gm\\gmtoolutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gm\\gmtoolutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\res\\resloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\res\\resloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\factory\\shapefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\factory\\shapefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\gameobject\\inventoryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\inventoryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\ui\\uiwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|E:\\UnityProject\\AutoChess\\Src\\AutoChess\\assets\\scripts\\managers\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF08F377-68AD-0F17-75B2-3441FA1A2FAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +70,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Item\\Inventory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Item\\Inventory.cs",
-              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Item\\Inventory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Item\\Inventory.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwEEAAAAFAAAA",
+              "DocumentIndex": 5,
+              "Title": "TeamElement.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GameObject\\ChessElement\\TeamElement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\ChessElement\\TeamElement.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GameObject\\ChessElement\\TeamElement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameObject\\ChessElement\\TeamElement.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T13:09:00.006Z"
+              "WhenOpened": "2024-08-20T04:01:20.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:57:29.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,10 +106,159 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ItemManager.cs",
               "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Managers\\ItemManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\ItemManager.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADoAAABRAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAA0wGUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T13:05:12.888Z",
+              "WhenOpened": "2024-08-20T03:57:11.666Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Item\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Item\\Inventory.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Item\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Item\\Inventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:09:00.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GMToolUtility.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GM\\GMToolUtility.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GM\\GMToolUtility.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GM\\GMToolUtility.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GM\\GMToolUtility.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIAwwBUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:18:54.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GMToolManager.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GM\\GMToolManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GM\\GMToolManager.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GM\\GMToolManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GM\\GMToolManager.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAD4vzcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:29:21.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResLoader.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Res\\ResLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Res\\ResLoader.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Res\\ResLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Res\\ResLoader.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:13:10.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShapeFactory.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Factory\\ShapeFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\ShapeFactory.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Factory\\ShapeFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\ShapeFactory.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:22:36.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemFactory.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Factory\\ItemFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Factory\\ItemFactory.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Factory\\ItemFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Factory\\ItemFactory.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIAywBAAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:21:20.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EquipmentElement.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GameObject\\EquipmentElement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\EquipmentElement.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GameObject\\EquipmentElement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameObject\\EquipmentElement.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAewDYAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T00:29:04.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GMCmdManager.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GM\\GMCmdManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GM\\GMCmdManager.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GM\\GMCmdManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GM\\GMCmdManager.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAtwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:18:58.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryUI.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\UI\\InventoryUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\InventoryUI.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\UI\\InventoryUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\InventoryUI.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAA1wFMAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:10:23.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InventoryObject.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GameObject\\InventoryObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\InventoryObject.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\GameObject\\InventoryObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameObject\\InventoryObject.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAIAywBAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T01:09:29.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UIWindow.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\UI\\UIWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIWindow.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\UI\\UIWindow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:11:10.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Managers\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\InventoryManager.cs",
+              "ToolTip": "E:\\UnityProject\\AutoChess\\Src\\AutoChess\\Assets\\Scripts\\Managers\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\InventoryManager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAADIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T00:41:51.855Z"
             }
           ]
         }

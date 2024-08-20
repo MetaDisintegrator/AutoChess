@@ -1,4 +1,6 @@
+using Chess;
 using GameObjects;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,8 +16,8 @@ namespace Item
     public struct InventoryID
     {
         public InventoryType Type { get; set; }
-        public ChessElement Owner { get; set; }
-        public InventoryID(ChessElement owner)
+        public ChessBase Owner { get; set; }
+        public InventoryID(ChessBase owner)
         {
             Type = InventoryType.Equipments;
             Owner = owner;
@@ -26,14 +28,30 @@ namespace Item
             Type = InventoryType.Bag,
             Owner = null,
         };
+
+        public static bool operator ==(InventoryID a, InventoryID b) => a.Equals(b);
+        public static bool operator !=(InventoryID a, InventoryID b) => !a.Equals(b);
+
+        public override bool Equals(object obj)
+        {
+            return obj is InventoryID ID &&
+                   Type == ID.Type &&
+                   EqualityComparer<ChessBase>.Default.Equals(Owner, ID.Owner);
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Type, Owner);
+        }
     }
     public class Inventory
     {
         public InventoryID ID { get; set; }
         int Capacity;
-        Dictionary<int, Equipment> items = new Dictionary<int, Equipment>();
+        Dictionary<int, Equipment> _items = new Dictionary<int, Equipment>();
+        public Dictionary<int, Equipment> Items => _items;
 
-        bool IsFull() => items.Count >= Capacity;
+        bool IsFull() => _items.Count >= Capacity;
 
         public Inventory(InventoryID ID, int capacity)
         {
@@ -44,23 +62,23 @@ namespace Item
         {
             for (int i = 0; i < Capacity; i++)
             {
-                if (!items.ContainsKey(i))
+                if (!_items.ContainsKey(i))
                     return i;
             }
             return -1;
         }
         public bool Place(int idx, Equipment item)
         {
-            if (items.ContainsKey(idx))
+            if (_items.ContainsKey(idx))
                 return false;
-            items.Add(idx, item);
+            _items.Add(idx, item);
             return true;
         }
         public bool Remove(int idx)
         { 
-            if(!items.ContainsKey(idx))
+            if(!_items.ContainsKey(idx))
                 return false;
-            items.Remove(idx);
+            _items.Remove(idx);
             return true;
         }
     }
